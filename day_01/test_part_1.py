@@ -3,8 +3,6 @@ from day_01.part_1 import dial as dial_part_1, count_zero_landings
 with open("day_01/example.txt", "r") as file:
     example_instructions = file.read().strip().split("\n")
 
-# === PART 1 TESTS ===
-
 
 def test_example_part_1() -> None:
     assert count_zero_landings(example_instructions) == 3
